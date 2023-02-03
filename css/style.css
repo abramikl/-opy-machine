@@ -1,0 +1,51 @@
+.copy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+}
+.copy__alignment{
+    margin: 0;
+}
+.copy__title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #191D23;
+}
+.copy__text {
+    width: 450px;
+    height: 260px;
+    color: #000;
+    border-radius: 4px;
+    resize: none;
+    border-color: #D0D5DD;
+    font-size: 16px;
+    padding: 12px 0px 0px 8px;
+    outline: 0;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.button__clear {
+    cursor: pointer;
+    flex-grow: 1;
+    height: 44px;
+    border: transparent;
+    color: #64748B;
+    background-color: #E7EAEE;
+    border-radius: 4px;
+}
+.button__copy {
+    cursor: pointer;
+    flex-grow: 6;
+    height: 44px;
+    border: transparent;
+    background-color: #047857;
+    color: white;
+    margin-left: 16px;
+    border-radius: 4px;
+}
